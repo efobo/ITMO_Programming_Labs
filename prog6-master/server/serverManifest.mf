@@ -1,0 +1,2 @@
+main-class: app.Main
+class-path: out/

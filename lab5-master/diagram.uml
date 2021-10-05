@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1805.5" y="148.0">commands.ACommand</node>
+    <node x="0.0" y="423.0">commands.RemoveByID</node>
+    <node x="534.0" y="423.0">commands.Update</node>
+    <node x="2115.0" y="423.0">commands.AddIfMin</node>
+    <node x="2939.0" y="423.0">commands.Add</node>
+    <node x="0.0" y="545.0">app.CommandManager</node>
+    <node x="1693.0" y="423.0">commands.MinByID</node>
+    <node x="1999.0" y="1063.0">Exceptions.LabworkNotFoundException</node>
+    <node x="0.0" y="1063.0">app.FileRecorder</node>
+    <node x="1226.0" y="545.0">app.Asker</node>
+    <node x="1550.0" y="545.0">data.Labwork</node>
+    <node x="249.0" y="423.0">commands.FilterContainsName</node>
+    <node x="1283.0" y="423.0">commands.Clear</node>
+    <node x="1813.5" y="0.0">commands.ICommand</node>
+    <node x="901.0" y="1063.0">app.Main</node>
+    <node x="3221.0" y="545.0">app.Output</node>
+    <node x="1096.0" y="1063.0">Exceptions.WrongAmountOfElementsException</node>
+    <node x="1919.0" y="423.0">commands.ExecuteScript</node>
+    <node x="789.0" y="423.0">commands.Help</node>
+    <node x="2385.0" y="545.0">data.Person</node>
+    <node x="3373.0" y="423.0">commands.Show</node>
+    <node x="3583.0" y="423.0">commands.Save</node>
+    <node x="1714.0" y="1063.0">Exceptions.ScriptRecursionException</node>
+    <node x="1429.0" y="1063.0">Exceptions.IncorrectScriptException</node>
+    <node x="1491.0" y="423.0">commands.Info</node>
+    <node x="2054.0" y="545.0">app.CollectionManager</node>
+    <node x="2648.0" y="423.0">commands.RemoveLower</node>
+    <node x="2736.0" y="545.0">data.Location</node>
+    <node x="495.0" y="1063.0">data.hair.Color</node>
+    <node x="2284.0" y="1063.0">Exceptions.EmptyCollectionException</node>
+    <node x="3177.0" y="423.0">commands.Exit</node>
+    <node x="2380.0" y="423.0">commands.PrintDescending</node>
+    <node x="698.0" y="1063.0">data.Color</node>
+    <node x="273.0" y="1063.0">data.Difficulty</node>
+    <node x="2995.0" y="545.0">data.Coordinates</node>
+    <node x="985.0000000000001" y="423.0">commands.RemoveGreater</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="commands.Help" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="877.0" y="363.0" />
+      <point x="1847.5" y="363.0" />
+      <point x="-54.0" y="82.5" />
+    </edge>
+    <edge source="commands.MinByID" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="1796.0" y="403.0" />
+      <point x="1895.5" y="403.0" />
+      <point x="-6.0" y="82.5" />
+    </edge>
+    <edge source="commands.Info" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="1582.0" y="393.0" />
+      <point x="1883.5" y="393.0" />
+      <point x="-18.0" y="82.5" />
+    </edge>
+    <edge source="commands.Exit" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="3265.0" y="353.0" />
+      <point x="1967.5" y="353.0" />
+      <point x="66.0" y="82.5" />
+    </edge>
+    <edge source="commands.AddIfMin" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="2237.5" y="393.0" />
+      <point x="1919.5" y="393.0" />
+      <point x="18.0" y="82.5" />
+    </edge>
+    <edge source="commands.Save" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="3676.0" y="333.0" />
+      <point x="1991.5" y="333.0" />
+      <point x="90.0" y="82.5" />
+    </edge>
+    <edge source="commands.ExecuteScript" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="2007.0" y="403.0" />
+      <point x="1907.5" y="403.0" />
+      <point x="6.0" y="82.5" />
+    </edge>
+    <edge source="commands.FilterContainsName" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="381.5" y="343.0" />
+      <point x="1823.5" y="343.0" />
+      <point x="-78.0" y="82.5" />
+    </edge>
+    <edge source="commands.PrintDescending" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="2504.0" y="383.0" />
+      <point x="1931.5" y="383.0" />
+      <point x="30.0" y="82.5" />
+    </edge>
+    <edge source="commands.Update" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="651.5" y="353.0" />
+      <point x="1835.5" y="353.0" />
+      <point x="-66.0" y="82.5" />
+    </edge>
+    <edge source="commands.Clear" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="1377.0" y="383.0" />
+      <point x="1871.5" y="383.0" />
+      <point x="-30.0" y="82.5" />
+    </edge>
+    <edge source="commands.RemoveGreater" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="1124.0" y="373.0" />
+      <point x="1859.5" y="373.0" />
+      <point x="-42.0" y="82.5" />
+    </edge>
+    <edge source="commands.Show" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="3468.0" y="343.0" />
+      <point x="1979.5" y="343.0" />
+      <point x="78.0" y="82.5" />
+    </edge>
+    <edge source="commands.ACommand" target="commands.ICommand">
+      <point x="0.0" y="-82.5" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="commands.RemoveByID" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="114.5" y="333.0" />
+      <point x="1811.5" y="333.0" />
+      <point x="-90.0" y="82.5" />
+    </edge>
+    <edge source="commands.RemoveLower" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="2783.5" y="373.0" />
+      <point x="1943.5" y="373.0" />
+      <point x="42.0" y="82.5" />
+    </edge>
+    <edge source="commands.Add" target="commands.ACommand">
+      <point x="0.0" y="-38.5" />
+      <point x="3048.0" y="363.0" />
+      <point x="1955.5" y="363.0" />
+      <point x="54.0" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="2088.4999999999923" y="959.9999999999997" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

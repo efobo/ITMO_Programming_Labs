@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<Labwork>
+		<labwork name = "Halk" xc ="540" yc = "540.00" creationDate = "2021-02-18T11:49:10.948" minimalPoint = "12" difficulty = "HOPELESS" PersonName = "Alla" birthday = "2000-12-11" eyeColor = "GREEN" hairColor="RED" xl = "540.00" yl = "540.00" locationName = "LegoCity"/>
+		<labwork name = "Spider man" xc = "100" yc = "100.00" creationDate = "2021-02-18T11:49:10.948" minimalPoint = "10" difficulty = "NORMAL" PersonName = "Maga" birthday = "1999-11-11" eyeColor = "YELLOW" hairColor = "BLACK" xl = "1000.00" yl="100.00" locationName="Metropolice"/>
+	</Labwork>
+</project>
