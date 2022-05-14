@@ -10,13 +10,16 @@
 <img src="lab5-problem.png">
 
 # Лабораторная №6
-### Вариант №
+### Вариант № 32288223
 <br>
+<img src="lab6-problem.png">
 
 # Лабораторная №7
-### Вариант №
+### Вариант № 66677
 <br>
+<img src="lab7-problem.png">
 
 # Лабораторная №8
 ### Вариант №
 <br>
+<img src="lab8-problem.png">
