@@ -20,6 +20,6 @@
 <img src="lab7-problem.png">
 
 # Лабораторная №8
-### Вариант №
+### Вариант № 343443
 <br>
 <img src="lab8-problem.png">
